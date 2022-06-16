@@ -5,7 +5,33 @@
 
 @media screen and (max-width: 375px) {
     .container{
-        flex-direction: column
+        flex-direction: row;
+        width: 100%;
+        
+        flex-wrap: wrap;
+ 
+    }
+     
+    .container .ctn-1{
+        /* width: 100%; */
+        flex-direction: column;
+        border-radius: 8px 8px 0 0;
+    }
+    .ctn-2{
+        flex-direction: column;
+    }
+    .container .ctn-3{
+        flex-direction: column;
+        border-radius: 0 0 8px 8px;
+    }
+    .container #btn-1{
+        position: relative;
+        align-self: center;
+    }
+    a{
+        position: relative;
+        margin: auto;
+        left: 70%;
     }
 }
 @media screen and (max-width: 1440px) {
