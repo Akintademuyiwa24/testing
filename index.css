@@ -3,15 +3,11 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 1440px) {
-    .container{
-        width: 100%;
-    }
-}
 @media screen and (max-width: 375px) {
     .container{
-        width: 50%;
+        flex-direction: column;
     }
+}
 }
 .container {
     position: absolute;
