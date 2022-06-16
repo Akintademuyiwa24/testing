@@ -4,8 +4,8 @@
 }
 
 @media screen and (max-width: 375px) {
-    .container, .ctn-1, .ctn-2, .ctn-3 {
-        flex-direction: column;
+    .container{
+        width: 100%
     }
 }
 @media screen and (max-width: 1440px) {
