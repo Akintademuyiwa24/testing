@@ -33,7 +33,7 @@
     }
      
     .container .ctn-1{
-        width: 100%;
+       
         flex-direction: row;
         border-radius: 8px 8px 0 0;
     }
